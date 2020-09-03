@@ -4,7 +4,7 @@ import { accountRouter } from './routes/accountRouter.js';
 
 (async () => {
   try {
-    mongoose.connect('mongodb+srv://roggoncalves:olindaro86@cluster0.ulvso.mongodb.net/accounts?retryWrites=true&w=majority', {
+    mongoose.connect('mongodb+srv://roggoncalves:<PASSWORD>@cluster0.ulvso.mongodb.net/accounts?retryWrites=true&w=majority', {
       useNewUrlParser: true,
       useUnifiedTopology: true
     })
